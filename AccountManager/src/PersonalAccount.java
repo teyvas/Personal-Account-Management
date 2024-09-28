@@ -4,13 +4,13 @@ public class PersonalAccount {
     private int accountNumber;
     private String accountHolder;
     private double balance;
-    private ArrayList<Amount> transactions;  // We use ArrayList for dynamic storage.
+    private ArrayList<Amount> transactions;  
 
     public PersonalAccount(int accountNumber, String accountHolder) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
         this.balance = 0.0;
-        this.transactions = new ArrayList<>();  // Initialize the transaction list
+        this.transactions = new ArrayList<>();  
     }
 
     public void deposit(double amount) {
